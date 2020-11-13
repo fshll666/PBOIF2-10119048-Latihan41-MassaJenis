@@ -37,7 +37,7 @@ public class Kubus {
         return(int)Math.pow(parSisi,3);
     }
     
-    public int hitungMassa(int parMassa, int volume){
+    public int hitungMassaJenis(int parMassa, int volume){
         this.massa = parMassa/volume;
         
         return this.massa;

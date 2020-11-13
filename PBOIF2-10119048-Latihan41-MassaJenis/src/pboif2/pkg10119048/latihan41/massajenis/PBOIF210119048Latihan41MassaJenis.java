@@ -32,8 +32,10 @@ public class PBOIF210119048Latihan41MassaJenis {
         //output
         System.out.println("\n=====Hasil Perhitungan=====");
         System.out.println("Volume = " + kubus.hitungVolume(kubus.getSisi()));
-        System.out.println("Massa Jenis = " + kubus.hitungMassa(kubus.getMassa(),
+        System.out.println("Massa Jenis = " + kubus.hitungMassaJenis(kubus.getMassa(),
                             kubus.hitungVolume(kubus.getSisi())));
+        System.out.println("==========================================");
+        System.out.println("Developed by : Mochammad Faishal");
     }
     
 }
